@@ -24,11 +24,18 @@ export type Scenario = {
 
 export type SimulateResponse = {
   run_id: number;
-  facts: any;
-  scenarios: Scenario[];
-  comparison: any;
-  llm_summary?: string | null;
+  facts: any[];
+  scenarios: any[];
+  comparison: string[];
+  llm_summary?: any;
+
+  ranking?: Array<{
+    name: string;
+    fit_score?: number;
+    notes?: string;
+  }>;
 };
+
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
