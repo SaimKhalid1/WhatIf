@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# WhatIf
+=======
 # WhatIf — Decision Intelligence Simulator (Assumption‑Driven)
 
 **WhatIf** helps you make better decisions under uncertainty by **surfacing assumptions** and comparing **plausible scenarios**.
@@ -71,3 +74,4 @@ Set frontend env:
 - Built a public-facing decision support app that compares scenarios using explicit assumptions, uncertainty ranges, and reproducible scoring.  
 - Implemented a deterministic scenario engine (risk, optionality, cost, time) and stored simulation runs in SQL for traceability.  
 - Added an optional governed LLM layer that generates concise executive explanations strictly from model outputs (no invented facts).
+>>>>>>> e2d39ca (Initial commit: WhatIf Decision Intelligence)
