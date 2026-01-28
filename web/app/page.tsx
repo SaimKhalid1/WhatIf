@@ -186,9 +186,15 @@ export default function Page() {
         </div>
 
         <div className="row">
-          <a className="pill mono" href="http://127.0.0.1:8000/docs" target="_blank" rel="noreferrer">
+          <a
+            className="pill mono"
+            href="https://whatif-api-saim-axaba5frbjffamg8.eastus-01.azurewebsites.net/docs"
+            target="_blank"
+            rel="noreferrer"
+          >
             API docs
           </a>
+
 
           <button className="iconBtn" aria-label="Toggle theme" onClick={toggle}>
             {theme === "dark" ? (
